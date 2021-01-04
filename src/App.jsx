@@ -19,7 +19,7 @@ export default () =>
 
         <div className='Cards'>
 
-            <Card titulo='#07 - Desafio Repetição - Produtos' color='#75EB00'>
+            <Card titulo='#07 - Desafio Repetição - Produtos' color='#53BBF4'>
                 <TabelaProdutos></TabelaProdutos>
             </Card>
             
@@ -39,7 +39,7 @@ export default () =>
                 <Aleatorio min={1} max={100} />
             </Card>
 
-            <Card titulo='#03 - Fragmento' color='#28ABE3'>
+            <Card titulo='#03 - Fragmento' color='#E9E0D6'>
                 <Fragmento />
             </Card>
 
