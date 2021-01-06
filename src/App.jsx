@@ -15,6 +15,7 @@ import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/input";
 
 // eslint-disable-next-line
 export default () => (
@@ -22,6 +23,10 @@ export default () => (
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+      <Card titulo="#11 - Componente Controlado" color="#1499D3">
+        <Input></Input>
+      </Card>
+
       <Card titulo="#10 - Comunicação indireta" color="#638CA6">
         <IndiretaPai></IndiretaPai>
       </Card>
