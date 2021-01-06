@@ -13,6 +13,8 @@ import Familia from "./components/basicos/Familia";
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
 
 // eslint-disable-next-line
 export default () => (
@@ -20,6 +22,14 @@ export default () => (
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+      <Card titulo="#10 - Comunicação indireta" color="#638CA6">
+        <IndiretaPai></IndiretaPai>
+      </Card>
+
+      <Card titulo="#09 - Comunicação direta" color="#FFA200">
+        <DiretaPai></DiretaPai>
+      </Card>
+
       <Card titulo="#08 - Renderização Condicional" color="#982395">
         <ParOuImpar numero={55}></ParOuImpar>
         <UsuarioInfo usuario={{ nome: "Edu" }} />
