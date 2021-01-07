@@ -17,6 +17,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/input";
 import Contador from "./components/contador/Contador";
+import Mega from "./components/mega/Mega";
 
 // eslint-disable-next-line
 export default () => (
@@ -24,6 +25,10 @@ export default () => (
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+      <Card titulo="#13 - Desafio Mega-Sena" color="#FFE600">
+        <Mega qtde={8}></Mega>
+      </Card>
+
       <Card titulo="#12 - Contador" color="#D93240">
         <Contador numeroInicial={10}></Contador>
       </Card>

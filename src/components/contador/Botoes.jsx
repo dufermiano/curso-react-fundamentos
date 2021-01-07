@@ -4,10 +4,10 @@ import React from "react";
 export default (props) => {
   return (
     <div>
-      <button className="btn btn-primary" onClick={props.setInc}>
+      <button className="btn btn-primary btn-valor" onClick={props.setInc}>
         +
       </button>
-      <button className="btn btn-danger" onClick={props.setDec}>
+      <button className="btn btn-danger btn-valor" onClick={props.setDec}>
         -
       </button>
     </div>
